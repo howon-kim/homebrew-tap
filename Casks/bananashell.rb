@@ -14,8 +14,8 @@ cask "bananashell" do
   end
 
   auto_updates true
-  depends_on macos: ">= :ventura"
   depends_on formula: "tmux"
+  depends_on macos: :ventura
 
   app "bananaShell.app"
 
